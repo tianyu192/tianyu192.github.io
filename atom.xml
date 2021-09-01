@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-01T08:26:07.260Z</updated>
+  <updated>2021-09-01T11:07:36.265Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,15 +21,14 @@
     <link href="http://example.com/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
     <id>http://example.com/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</id>
     <published>2021-09-01T08:09:42.000Z</published>
-    <updated>2021-09-01T08:26:07.260Z</updated>
+    <updated>2021-09-01T11:07:36.265Z</updated>
     
-    <content type="html"><![CDATA[<p>FHS（Filesystem Hierarchy Standard ，文件系统层次结构标准），多数 Linux 版本采用这种文件组织形式，FHS 定义了系统中每个区域的用途、所需要的最小构成的文件和目录同时还给出了例外处理与矛盾处理。</p><p>FHS 定义了两层规范，第一层是， / 下面的各个目录应该要放什么文件数据，</p><p>例如 /etc 应该放置设置文件，/bin 与 /sbin 则应该放置可执行文件等等。</p><p>第二层则是针对 /usr 及 /var 这两个目录的子目录来定义。</p><p>例如 /var/log 放置系统日志文件，/usr/share 放置共享数据等等。<br><img src="/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/1.png" alt="目录结构"></p><p>FHS 依据文件系统使用的频繁与否以及是否允许用户随意改动，将目录定义为四种交互作用的形态，如下表所示：<br><img src="/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/2.png" alt="目录结构"></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="文件系统层次化标准"><a href="#文件系统层次化标准" class="headerlink" title="文件系统层次化标准"></a>文件系统层次化标准</h3><p>多数 Linux 版本采用 <strong>FHS</strong> (Filesystem Hierarchy Standard) 文件组织形式。FHS 定义了系统中每个区域的用途、所需要的最小构成的文件和目录同时还给出了例外处理与矛盾处理。</p><p>FHS 定义了两层规范，第一层是， <strong>/</strong> 下面的各个目录应该要放什么文件数据，</p><blockquote><p>例如 <strong>/etc</strong> 应该放置设置文件, <strong>/bin</strong> 与 <strong>/sbin</strong> 则应该放置可执行文件等等。</p></blockquote><p>第二层则是针对 <strong>/usr</strong> 及 <strong>/var</strong> 这两个目录的子目录来定义。</p><blockquote><p>例如 <strong>/var/log</strong> 放置系统日志文件, <strong>/usr/share</strong> 放置共享数据等等。</p></blockquote><p><img src="/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/1.png" alt="目录结构"></p><hr><h3 id="目录的四种形态"><a href="#目录的四种形态" class="headerlink" title="目录的四种形态"></a>目录的四种形态</h3><p>FHS 依据文件系统使用的频繁与否以及是否允许用户随意改动，将目录定义为四种交互作用的形态。如下表所示：<br><img src="/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/2.png" alt="目录结构"></p><hr>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;FHS（Filesystem Hierarchy Standard ，文件系统层次结构标准），多数 Linux 版本采用这种文件组织形式，FHS 定义了系统中每个区域的用途、所需要的最小构成的文件和目录同时还给出了例外处理与矛盾处理。&lt;/p&gt;
-&lt;p&gt;FHS 定义了两层规范，</summary>
+    <summary type="html">&lt;h3 id=&quot;文件系统层次化标准&quot;&gt;&lt;a href=&quot;#文件系统层次化标准&quot; class=&quot;headerlink&quot; title=&quot;文件系统层次化标准&quot;&gt;&lt;/a&gt;文件系统层次化标准&lt;/h3&gt;&lt;p&gt;多数 Linux 版本采用 &lt;strong&gt;FHS&lt;/strong&gt; (Filesy</summary>
       
     
     
