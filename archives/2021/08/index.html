@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" color-mode="light">
+<html lang="zh-CN" color-mode="light">
 
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="keywords" content="" />
-  <meta name="author" content="John Doe" />
+  <meta name="author" content="见鹿" />
   <meta name="description" content="" />
   
   
@@ -16,7 +16,7 @@
       
       |
     
-     Hexo
+     树深
   </title>
 
   
@@ -57,7 +57,7 @@
     }
   </script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="树深" type="application/atom+xml">
 </head>
 
 
@@ -117,11 +117,20 @@
           </h2>
         </div>
       
-      <div class="post-item" title="first_blog">
+      <div class="post-item" title="Linux 目录结构">
         <div class="time-m-d">09-01</div>
         <div class="title">
-          <a href="/2021/09/01/first-blog/">
-            <span>first_blog</span>
+          <a href="/2021/09/01/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/">
+            <span>Linux 目录结构</span>
+          </a>
+        </div>
+      </div>
+    
+      <div class="post-item" title="Linux 基础命令">
+        <div class="time-m-d">09-01</div>
+        <div class="title">
+          <a href="/2021/09/01/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/">
+            <span>Linux 基础命令</span>
           </a>
         </div>
       </div>
@@ -207,7 +216,7 @@
           </a>
         </span>
         
-          <input type="text" class="search-input" id="search-input" placeholder="Search...">
+          <input type="text" class="search-input" id="search-input" placeholder="搜索...">
         
         <span class="search-close-icon" id="search-close-icon">
           <a href="javascript: void(0)">
@@ -259,7 +268,7 @@
       'use strict';
       var $input = document.getElementById(search_id);
       var $resultContent = document.getElementById(content_id);
-      $resultContent.innerHTML = "<ul><span class='local-search-empty'>First search, index file loading, please wait...<span></ul>";
+      $resultContent.innerHTML = "<ul><span class='local-search-empty'>首次搜索，正在载入索引文件，请稍后……<span></ul>";
       $.ajax({
         // 0x01. load xml file
         url: path,
@@ -355,7 +364,7 @@
             });
             str += "</ul>";
             if (str.indexOf('<li>') === -1) {
-              return $resultContent.innerHTML = "<ul><span class='local-search-empty'>No result<span></ul>";
+              return $resultContent.innerHTML = "<ul><span class='local-search-empty'>没有找到内容，请尝试更换检索词。<span></ul>";
             }
             $resultContent.innerHTML = str;
           });
@@ -363,9 +372,9 @@
         error: function(xhr, status, error) {
           $resultContent.innerHTML = ""
           if (xhr.status === 404) {
-            $resultContent.innerHTML = "<ul><span class='local-search-empty'>The search.xml file was not found, please refer to：<a href='https://github.com/zchengsite/hexo-theme-oranges#configuration' target='_black'>configuration</a><span></ul>";
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>未找到search.xml文件，具体请参考：<a href='https://github.com/zchengsite/hexo-theme-oranges#configuration' target='_black'>configuration</a><span></ul>";
           } else {
-            $resultContent.innerHTML = "<ul><span class='local-search-empty'>The request failed, Try to refresh the page or try again later.<span></ul>";
+            $resultContent.innerHTML = "<ul><span class='local-search-empty'>请求失败，尝试重新刷新页面或稍后重试。<span></ul>";
           }
         }
       });
