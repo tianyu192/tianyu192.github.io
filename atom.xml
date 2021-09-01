@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-09-01T07:14:34.787Z</updated>
+  <updated>2021-09-01T08:26:07.260Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>Linux 目录结构</title>
-    <link href="http://example.com/2021/09/01/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
-    <id>http://example.com/2021/09/01/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</id>
-    <published>2021-09-01T07:14:34.787Z</published>
-    <updated>2021-09-01T07:14:34.787Z</updated>
+    <link href="http://example.com/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
+    <id>http://example.com/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</id>
+    <published>2021-09-01T08:09:42.000Z</published>
+    <updated>2021-09-01T08:26:07.260Z</updated>
     
-    <content type="html"><![CDATA[<p>FHS（Filesystem Hierarchy Standard ，文件系统层次结构标准），多数 Linux 版本采用这种文件组织形式，FHS 定义了系统中每个区域的用途、所需要的最小构成的文件和目录同时还给出了例外处理与矛盾处理。</p><p>FHS 定义了两层规范，第一层是， / 下面的各个目录应该要放什么文件数据，</p><p>例如 /etc 应该放置设置文件，/bin 与 /sbin 则应该放置可执行文件等等。</p><p>第二层则是针对 /usr 及 /var 这两个目录的子目录来定义。</p><p>例如 /var/log 放置系统日志文件，/usr/share 放置共享数据等等。<br><img src="/Users/tianyu/Blog/source/_posts/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/2.png" alt="目录结构"></p><p>FHS 依据文件系统使用的频繁与否以及是否允许用户随意改动，将目录定义为四种交互作用的形态，如下表所示：<br><img src="/Users/tianyu/Blog/source/_posts/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/1.png" alt="交互状态"></p>]]></content>
+    <content type="html"><![CDATA[<p>FHS（Filesystem Hierarchy Standard ，文件系统层次结构标准），多数 Linux 版本采用这种文件组织形式，FHS 定义了系统中每个区域的用途、所需要的最小构成的文件和目录同时还给出了例外处理与矛盾处理。</p><p>FHS 定义了两层规范，第一层是， / 下面的各个目录应该要放什么文件数据，</p><p>例如 /etc 应该放置设置文件，/bin 与 /sbin 则应该放置可执行文件等等。</p><p>第二层则是针对 /usr 及 /var 这两个目录的子目录来定义。</p><p>例如 /var/log 放置系统日志文件，/usr/share 放置共享数据等等。<br><img src="/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/1.png" alt="目录结构"></p><p>FHS 依据文件系统使用的频繁与否以及是否允许用户随意改动，将目录定义为四种交互作用的形态，如下表所示：<br><img src="/2021/09/01/Linux-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/2.png" alt="目录结构"></p>]]></content>
     
     
       
@@ -35,14 +35,16 @@
     
     
     
+    <category term="Linux 基础" scheme="http://example.com/tags/Linux-%E5%9F%BA%E7%A1%80/"/>
+    
   </entry>
   
   <entry>
     <title>Linux 基础命令</title>
     <link href="http://example.com/2021/09/01/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/"/>
     <id>http://example.com/2021/09/01/Linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4/</id>
-    <published>2021-09-01T06:38:43.334Z</published>
-    <updated>2021-09-01T06:38:43.334Z</updated>
+    <published>2021-09-01T06:05:42.000Z</published>
+    <updated>2021-09-01T08:28:43.158Z</updated>
     
     <content type="html"><![CDATA[<h2 id="关机-重启"><a href="#关机-重启" class="headerlink" title="关机/重启"></a>关机/重启</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">shutdown -h now：立即关机</span><br><span class="line">shutdown -h 5：5分钟后关机</span><br><span class="line">shutdown -h 8:00：8:00关机</span><br><span class="line">shutdown -c：取消指定时间关机</span><br><span class="line">reboot：重启</span><br></pre></td></tr></table></figure><h2 id="文件和目录操作"><a href="#文件和目录操作" class="headerlink" title="文件和目录操作"></a>文件和目录操作</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ../..：返回上两级目录</span><br><span class="line"><span class="built_in">cd</span> -：返回上次所在目录</span><br><span class="line"><span class="built_in">pwd</span>：显示当前路径</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -54,6 +56,8 @@
     
     
     
+    
+    <category term="Linux 基础" scheme="http://example.com/tags/Linux-%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   
