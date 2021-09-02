@@ -11,8 +11,8 @@
   
   <title>
     
-      标签 
-       : Life
+      登楼赋 
+      
       
       |
     
@@ -102,30 +102,126 @@
 
 
       <div class="flex-container">
-        <!-- 标签详情页，展示某个标签下的文章列表，url形式：https://yoursite/tags/某个标签/ -->
+        <!-- 文章详情页，展示文章具体内容，url形式：https://yoursite/文章标题/ -->
+<!-- 同时为「标签tag」，「朋友friend」，「分类categories」，「关于about」页面的承载页面，具体展示取决于page.type -->
 
-<div class="container tag-details">
-  <div class="content-title">
-    <h2>
-      <span>Life</span>
-    </h2>
-  </div>
+<!-- LaTex Display -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+
+
+
   
-    <div class="post-list">
-      <div class="post-item" title="古诗十九首">
-        <span class="time-m-d">2021-09-02</span>
-        <a href="/2021/09/02/%E5%8F%A4%E8%AF%97%E5%8D%81%E4%B9%9D%E9%A6%96/">
-          <span>古诗十九首</span>
-        </a>
+
+  
+
+  
+
+  
+  <!-- 文章内容页 url形式：https://yoursite/文章标题/ -->
+  <div class="container post-details" id="post-details">
+    <div class="post-content">
+      <div class="post-title">登楼赋</div>
+      <div class="post-attach">
+        <span class="post-pubtime">
+          <i class="iconfont icon-updatetime" title="更新时间"></i>
+          2021-09-02 21:32:11
+        </span>
+        
+              <span class="post-tags">
+                <i class="iconfont icon-tags" title="标签"></i>
+                
+                <span class="span--tag">
+                  <a href="/tags/%E5%8F%A4%E8%AF%97%E8%AF%8D/" title="古诗词">
+                    <b>#</b> 古诗词
+                  </a>
+                </span>
+                
+              </span>
+          
       </div>
+      <div class="markdown-body">
+        <p>&ensp; 登兹楼以四望兮，聊暇日以销忧。览斯宇之所处兮，实显敞而寡仇。挟清漳之通浦兮， 倚曲沮之长洲。背坟衍之广陆兮，临皋隰之沃流。北弥陶牧，西接昭丘。华实蔽野，黍稷盈 畴。虽信美而非吾土兮，曾何足以少留！<br>&ensp; 遭纷浊而迁逝兮，漫逾纪以迄今。情眷眷而怀归兮，孰忧思之可任？凭轩槛以遥望兮， 向北风而开襟。平原远而极目兮，蔽荆山之高岑。路逶迤而修迥兮，川既漾而济深。悲旧乡 之壅隔兮，涕横坠而弗禁。昔尼父之在陈兮，有归欤之叹音。钟仪幽而楚奏兮，庄舄显而越 吟。人情同于怀土兮，岂穷达而异心！<br>&ensp; 惟日月之逾迈兮，俟河清其未极。冀王道之一平兮，假高衢而骋力。惧匏瓜之徒悬兮， 畏井渫之莫食。步栖迟以徙倚兮，白日忽其将匿。风萧瑟而并兴兮，天惨惨而无色。兽狂顾 以求群兮，鸟相鸣而举翼，原野阒其无人兮，征夫行而未息。心凄怆以感发兮，意忉怛而憯恻。循阶除而下降兮，气交愤于胸臆。夜参半而不寐兮，怅盘桓以反侧。</p>
+
+      </div>
+      
+        <div class="prev-or-next">
+          <div class="post-foot-next">
+            
+              <a href="/2021/09/02/%E4%BE%A0%E5%AE%A2%E8%A1%8C/" target="_self">
+                <i class="iconfont icon-chevronleft"></i>
+                <span>上一页</span>
+              </a>
+            
+          </div>
+          <div class="post-attach">
+            <span class="post-pubtime">
+              <i class="iconfont icon-updatetime" title="更新时间"></i>
+              2021-09-02 21:32:11
+            </span>
+            
+                  <span class="post-tags">
+                    <i class="iconfont icon-tags" title="标签"></i>
+                    
+                    <span class="span--tag">
+                      <a href="/tags/%E5%8F%A4%E8%AF%97%E8%AF%8D/" title="古诗词">
+                        <b>#</b> 古诗词
+                      </a>
+                    </span>
+                    
+                  </span>
+              
+          </div>
+          <div class="post-foot-prev">
+            
+          </div>
+        </div>
+      
     </div>
-  
-  <nav class="post-navigation">
     
-    <span class="page-num">1 / 1</span>
+
     
-  </nav>
-</div>
+      <div class="comments-container">
+        
+
+
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+
+  <div id="vcomments"></div>
+
+  <script>
+    new Valine({
+      el: '#vcomments',
+      appId: 'FgJkjcvIF4YPN2JHCK6tlec7-gzGzoHsz',
+      appKey: '9lLMr8fa3NKqWlMX9IfFPqrb',
+      placeholder: 'Welcome!',
+      avatar: 'retro',
+      lang: 'zh-CN'
+    })
+  </script>
+
+    <style>
+      .comments-container .v .vempty {
+        display: none!important;
+      }
+    </style>
+
+
+
+
+      </div>
+    
+  </div>
+
 
         <div class="footer">
   <div class="social">
