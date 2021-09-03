@@ -43,14 +43,26 @@
     <link href="http://example.com/2021/09/02/%E4%BE%A0%E5%AE%A2%E8%A1%8C/"/>
     <id>http://example.com/2021/09/02/%E4%BE%A0%E5%AE%A2%E8%A1%8C/</id>
     <published>2021-09-02T13:27:25.000Z</published>
-    <updated>2021-09-03T01:11:33.433Z</updated>
+    <updated>2021-09-03T01:22:40.060Z</updated>
     
-    <content type="html"><![CDATA[<p>  赵客缦胡缨 吴钩霜雪明 银鞍照白马 飒沓如流星<br>  十步杀一人 千里不留行 事了拂衣去 深藏身与名<br>  闲过信陵饮 脱剑膝前横 将炙啖朱亥 持觞劝侯嬴<br>  三杯吐然诺 五岳倒为轻 眼花耳热后 意气素霓生<br>  救赵挥金槌 邯郸先震惊 千秋二壮士 烜赫大梁城<br>  纵死侠骨香 不惭世上英 谁能书阁下 白首太玄经</p>]]></content>
+    <content type="html"><![CDATA[<center>  赵客缦胡缨 吴钩霜雪明 </center><center>  银鞍照白马 飒沓如流星</center><center>  十步杀一人 千里不留行 </center><center>  事了拂衣去 深藏身与名</center><center>  闲过信陵饮 脱剑膝前横  </center><center>  将炙啖朱亥 持觞劝侯嬴</center><center>  三杯吐然诺 五岳倒为轻 </center><center>  眼花耳热后 意气素霓生</center><center>  救赵挥金槌 邯郸先震惊 </center><center>  千秋二壮士 烜赫大梁城</center><center>  纵死侠骨香 不惭世上英 </center><center>  谁能书阁下 白首太玄经</center>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;  赵客缦胡缨 吴钩霜雪明 银鞍照白马 飒沓如流星&lt;br&gt;  十步杀一人 千里不留行 事了拂衣去 深藏身与名&lt;br&gt;  闲过信陵饮 脱剑膝前横 将炙啖朱亥 持觞劝侯嬴&lt;br&gt;  三杯吐然诺 五岳倒为轻 眼花耳热后 意气素霓生&lt;br&gt;  救赵挥金槌 邯郸先震惊 千秋二壮士 烜</summary>
+    <summary type="html">&lt;center&gt;
+  赵客缦胡缨 吴钩霜雪明 
+&lt;/center&gt;
+&lt;center&gt;
+  银鞍照白马 飒沓如流星
+&lt;/center&gt;
+&lt;center&gt;
+  十步杀一人 千里不留行 
+&lt;/center&gt;
+&lt;center&gt;
+  事了拂衣去 深藏身与名
+&lt;/center&gt;
+&lt;cente</summary>
       
     
     
@@ -65,7 +77,7 @@
     <link href="http://example.com/2021/09/02/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F/"/>
     <id>http://example.com/2021/09/02/%E5%85%B0%E4%BA%AD%E9%9B%86%E5%BA%8F/</id>
     <published>2021-09-02T11:43:55.000Z</published>
-    <updated>2021-09-02T11:50:17.648Z</updated>
+    <updated>2021-09-03T01:15:06.381Z</updated>
     
     <content type="html"><![CDATA[<p>&nbsp; 永和九年，岁在癸丑，暮春之初，会于会稽山阴之兰亭，修禊事也。群贤毕至，少长咸集。此地有崇山峻岭，茂林修竹，又有清流激湍，映带左右。引以为流觞曲水，列坐其次。虽无丝竹管弦之盛，一觞一咏，亦足以畅叙幽情。</p><p>&nbsp; 是日也，天朗气清，惠风和畅。仰观宇宙之大，俯察品类之盛，所以游目骋怀，足以极视听之娱，信可乐也。</p><p>&nbsp; 夫人之相与，俯仰一世。或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外。虽趣舍万殊，静躁不同，当其欣于所遇，暂得于己，快然自足，不知老之将至。及其所之既倦，情随事迁，感慨系之矣。向之所欣，俯仰之间，已为陈迹，犹不能不以之兴怀。况修短随化，终期于尽。古人云：“死生亦大矣！”岂不痛哉！</p><p>&nbsp; 每览昔人兴感之由，若合一契，未尝不临文嗟悼，不能喻之于怀。固知一死生为虚诞，齐彭殇为妄作。后之视今，亦犹今之视昔，悲夫！故列叙时人，录其所述。虽世殊事异，所以兴怀，其致一也。后之览者，亦将有感于斯文。</p>]]></content>
     
@@ -79,7 +91,7 @@
     
     
     
-    <category term="背诵" scheme="http://example.com/tags/%E8%83%8C%E8%AF%B5/"/>
+    <category term="古诗词" scheme="http://example.com/tags/%E5%8F%A4%E8%AF%97%E8%AF%8D/"/>
     
   </entry>
   
@@ -151,11 +163,11 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2021/08/31/hello-world/"/>
-    <id>http://example.com/2021/08/31/hello-world/</id>
-    <published>2021-08-31T14:52:14.888Z</published>
-    <updated>2021-08-31T14:52:14.888Z</updated>
+    <title>About Me</title>
+    <link href="http://example.com/2021/09/01/hello-world/"/>
+    <id>http://example.com/2021/09/01/hello-world/</id>
+    <published>2021-09-01T00:27:42.000Z</published>
+    <updated>2021-09-03T08:28:15.521Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
